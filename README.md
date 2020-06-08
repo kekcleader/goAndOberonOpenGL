@@ -17,7 +17,7 @@ git clone git@github.com:kekcleader/goAndOberonOpenGL.git
 ```
 or download it.
 
-3. Go to subdirectory `g001\_simplest` and type:
+3. Go to subdirectory `g001_simplest` and type:
 ```
 make
 ```
