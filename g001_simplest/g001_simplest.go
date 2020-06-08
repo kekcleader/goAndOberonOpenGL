@@ -89,7 +89,7 @@ func init1() {
   err = sdl.Init(sdl.INIT_EVERYTHING)
   if err != nil { panic(err) }
 
-  win, err = sdl.CreateWindow("a1", 200, 100, sW, sH, sdl.WINDOW_OPENGL)
+  win, err = sdl.CreateWindow("g001 Simplest", 200, 100, sW, sH, sdl.WINDOW_OPENGL)
   //if err != nil { panic(err) }
   win.GLCreateContext()
 
