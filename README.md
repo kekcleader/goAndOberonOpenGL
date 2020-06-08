@@ -1,8 +1,8 @@
 # Go Oberon OpenGL
 
-Go and (Oberon)[https://freeoberon.su/en] examples of OpenGL 3D graphics.
+Go and [Oberon](https://freeoberon.su/en) examples of OpenGL 3D graphics.
 
-Примеры программ, использующих 3D-графику с использованием OpenGL на языках Go и (Oberon)[https://freeoberon.su].
+Примеры программ, использующих 3D-графику с использованием OpenGL на языках Go и [Oberon](https://freeoberon.su).
 
 ## How To Use
 1. Install Go, OpenGL and SDL2.
@@ -28,3 +28,5 @@ to compile and run the program.
 | File Name | Description |
 | --------- | ----------- |
 | [g001\_simplest](g001_simplest) | Simplest Go example of 3D graphics using OpenGL + SDL2. Draws a triangle on the screen. |
+
+![Orange triangle in a black SDL2 window](screenshots/01.png)
