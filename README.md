@@ -27,4 +27,4 @@ to compile and run the program.
 
 | File Name | Description |
 | --------- | ----------- |
-| [g001\_simplest](g001_simplest/g001_simplest.go) | Simplest Go Example of 3D graphics using OpenGL + SDL2. Draws a triangle on the screen. |
+| [g001\_simplest](g001_simplest) | Simplest Go example of 3D graphics using OpenGL + SDL2. Draws a triangle on the screen. |

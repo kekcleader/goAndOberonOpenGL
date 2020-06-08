@@ -1,5 +1,5 @@
 // g001_simplest.go
-// Simplest Go Example of 3D graphics using OpenGL + SDL2.
+// Simplest Go example of 3D graphics using OpenGL + SDL2.
 // Draws a triangle on the screen.
 
 package main
