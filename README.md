@@ -26,4 +26,5 @@ to compile and run the program.
 ## Source Files
 
 | File Name | Description |
+| --------- | ----------- |
 | [g001\_simplest](g001_simplest/g001_simplest.go) | Simplest Go Example of 3D graphics using OpenGL + SDL2. Draws a triangle on the screen. |
