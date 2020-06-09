@@ -28,5 +28,7 @@ to compile and run the program.
 | File Name | Description |
 | --------- | ----------- |
 | [g001\_simplest](g001_simplest) | Simplest Go example of 3D graphics using OpenGL + SDL2. Draws a triangle on the screen. |
+| [g002\_colors](g002_colors) | Applies a gradient color to the triangle. |
+| [g003\_texture](g003_texture) | Applies a simple texture to the triangle. |
 
-![Orange triangle in a black SDL2 window](screenshots/01.png)
+![Colored OpenGL-drawn triangle](g002_colors/screenshots/01.png)
