@@ -24,6 +24,7 @@ var (
   win *sdl.Window
 )
 
+/**Reads a file, appends byte 0X and stores it in s. Halts on error.*/
 func readShader(fname string, s *string) {
   b, err := ioutil.ReadFile(fname)
   if err != nil {
@@ -33,6 +34,9 @@ func readShader(fname string, s *string) {
   *s = string(b) + "\x00"
 }
 
+/**Loads shader source from a file and creates a shader of type sType.
+   sType should be either gl.VERTEX_SHADER or gl.FRAGMENT_SHADER.
+   Halts on error.*/
 func loadShader(fname string, shader *uint32, sType uint32) {
   sh := gl.CreateShader(sType)
 
@@ -126,7 +130,7 @@ func draw() {
   win.GLSwap()
 }
 
-func HandleKey(e *sdl.KeyboardEvent, done *bool) {
+func handleKey(e *sdl.KeyboardEvent, done *bool) {
   if e.Keysym.Sym == sdl.K_ESCAPE {
     *done = true
   }
@@ -142,7 +146,7 @@ func run() {
     for event != nil {
       switch e := event.(type) {
         case *sdl.QuitEvent: done = true
-        case *sdl.KeyboardEvent: HandleKey(e, &done)
+        case *sdl.KeyboardEvent: handleKey(e, &done)
       }
       event = sdl.PollEvent()
     }
