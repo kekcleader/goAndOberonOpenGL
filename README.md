@@ -31,4 +31,4 @@ to compile and run the program.
 | [g002\_colors](g002_colors) | Applies a gradient color to the triangle. |
 | [g003\_texture](g003_texture) | Applies a simple texture to the triangle. |
 
-![Colored OpenGL-drawn triangle](g002_colors/screenshots/01.png)
+![OpenGL-drawn textured triangle](g003_texture/screenshots/01.png)
