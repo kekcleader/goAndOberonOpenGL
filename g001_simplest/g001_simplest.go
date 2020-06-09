@@ -1,6 +1,6 @@
-// g001_simplest.go
-// Simplest Go example of 3D graphics using OpenGL + SDL2.
-// Draws a triangle on the screen.
+/** g001_simplest.go
+Simplest Go example of 3D graphics using OpenGL + SDL2.
+Draws a triangle on the screen.*/
 
 package main
 
@@ -94,7 +94,8 @@ func init1() {
   if err != nil { panic(err) }
 
   win, err = sdl.CreateWindow("g001 Simplest", 200, 100, sW, sH, sdl.WINDOW_OPENGL)
-  //if err != nil { panic(err) }
+  if err != nil { panic(err) }
+
   win.GLCreateContext()
 
   gl.Init()

@@ -1,5 +1,5 @@
-// g002_colors.go
-// Applies a gradient color to the triangle.
+/** g002_colors.go
+Applies a gradient color to the triangle.*/
 
 package main
 
@@ -93,7 +93,8 @@ func init1() {
   if err != nil { panic(err) }
 
   win, err = sdl.CreateWindow("g002 Colors", 200, 100, sW, sH, sdl.WINDOW_OPENGL)
-  //if err != nil { panic(err) }
+  if err != nil { panic(err) }
+
   win.GLCreateContext()
 
   gl.Init()
