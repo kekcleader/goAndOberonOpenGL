@@ -39,4 +39,4 @@ It simply compiles and runs the program using `go run`.
 | [g005\_animation](g005_animation) | Draws a rectangle with an animated texture. |
 | [g006\_twotextures](g006_twotextures) | Rectangle with two textures mixed together. |
 
-See [video of g005](https://youtu.be/ifXDMCMWGI0)
+See [video of g006](https://youtu.be/a46rzm_egaE)
