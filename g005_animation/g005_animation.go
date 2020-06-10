@@ -97,6 +97,7 @@ func initTexture() {
   var err error
 
   gl.GenTextures(1, &texture)
+  gl.ActiveTexture(gl.TEXTURE_2D)
   gl.BindTexture(gl.TEXTURE_2D, texture)
   gl.TexParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT)
   gl.TexParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.REPEAT)
