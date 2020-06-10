@@ -2,4 +2,4 @@
 
 Rectangle with two textures mixed together.
 
-[See video](https://youtu.be/a46rzm_egaE)
+[![See video](screenshots/01.jpg)](https://youtu.be/a46rzm_egaE)

@@ -2,4 +2,4 @@
 
 Draws a rectangle with an animated texture.
 
-[See video](https://youtu.be/ifXDMCMWGI0)
+[![See video](screenshots/01.jpg)](https://youtu.be/ifXDMCMWGI0)
