@@ -37,5 +37,6 @@ It simply compiles and runs the program using `go run`.
 | [g003\_texture](g003_texture) | Applies a simple texture to the triangle. |
 | [g004\_rectangle](g004_rectangle) | Textured rectangle. |
 | [g005\_animation](g005_animation) | Draws a rectangle with an animated texture. |
+| [g006\_twotextures](g006_twotextures) | Rectangle with two textures mixed together. |
 
-See [video of g005](https://youtu.be/YSGHIjB93HU)
+See [video of g005](https://youtu.be/ifXDMCMWGI0)
