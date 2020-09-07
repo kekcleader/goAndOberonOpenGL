@@ -173,8 +173,6 @@ func init1() {
   gl.VertexAttribPointer(2, 2, gl.FLOAT, false, 8 * 4, gl.PtrOffset(6 * 4))
   gl.EnableVertexAttribArray(2) /*Texture coordinates*/
 
-  gl.BindVertexArray(vao)
-
   initTexture()
 }
 
@@ -183,7 +181,6 @@ func draw() {
   gl.Clear(gl.COLOR_BUFFER_BIT)
   gl.UseProgram(shaderProg)
   gl.BindVertexArray(vao)
-  //gl.DrawArrays(gl.TRIANGLES, 0, 3)
   gl.DrawElements(gl.TRIANGLES, 6, gl.UNSIGNED_INT, nil)
   win.GLSwap()
 }

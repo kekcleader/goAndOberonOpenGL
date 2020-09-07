@@ -119,7 +119,6 @@ func init1() {
   gl.BufferData(gl.ARRAY_BUFFER, len(v) * 4, gl.Ptr(v), gl.STATIC_DRAW)
   gl.VertexAttribPointer(0, 3, gl.FLOAT, false, 3 * 4, nil)
   gl.EnableVertexAttribArray(0)
-  gl.BindVertexArray(0)
 }
 
 func draw() {

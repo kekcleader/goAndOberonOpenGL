@@ -124,8 +124,6 @@ func init1() {
   gl.EnableVertexAttribArray(1) /*Color RGB*/
   /*in 3 * 4, 3 is the number of floats, 4 is the number of bytes in float32*/
   gl.VertexAttribPointer(1, 3, gl.FLOAT, false, 6 * 4, gl.PtrOffset(3 * 4))
-
-  gl.BindVertexArray(0)
 }
 
 func draw() {

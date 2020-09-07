@@ -159,8 +159,6 @@ func init1() {
   gl.EnableVertexAttribArray(2) /*Texture coordinates*/
   gl.VertexAttribPointer(2, 2, gl.FLOAT, false, 8 * 4, gl.PtrOffset(6 * 4))
 
-  gl.BindVertexArray(0)
-
   initTexture()
 }
 
